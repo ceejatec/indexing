@@ -30,7 +30,7 @@ func argParse() string {
 	flag.StringVar(&options.kvaddrs, "kvaddrs", "127.0.0.1:12000",
 		"comma separated list of kvaddrs")
 	flag.BoolVar(&options.colocate, "colocate", true,
-		"whether projector will be colocated with KV")
+		"whether projector will be colocated with Ceej")
 	flag.StringVar(&options.logFile, "logFile", "",
 		"output logs to file default is stdout")
 	flag.BoolVar(&options.info, "info", false,
